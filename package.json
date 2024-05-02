@@ -2,8 +2,7 @@
   "packageManager": "pnpm@8.8.0",
   "author": "Zero <gczgroup@qq.com>",
   "scripts": {
-    "format": "prettier --write ./",
-    "lint": "eslint \"./**/*.ts\" --fix",
+    "lint": "eslint . --fix",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
