@@ -1,0 +1,12 @@
+{
+  "name": "tsup-basic",
+  "version": "0.0.1",
+  "description": "A basic template for tsup",
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch"
+  },
+  "devDependencies": {
+    "tsup": "8.1.0"
+  }
+}

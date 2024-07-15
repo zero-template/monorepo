@@ -1,0 +1,7 @@
+{
+  "choose_template": "Please choose a template:",
+  "process_exit": "Operation has been canceled",
+  "dir_exists": "Directory {0} already exists, do you want to overwrite? If you choose to overwrite, all files in the directory will be deleted, otherwise will exit.",
+  "will_created_in": "Project will be created in {0} directory",
+  "created_in": "✨Project has been created in {0} directory"
+}

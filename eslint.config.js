@@ -1,3 +1,10 @@
-const antfu = require("@antfu/eslint-config");
+const antfu = require('@antfu/eslint-config')
 
-module.exports = antfu.default();
+module.exports = antfu.default({
+  rules: {
+    'no-console': 'off',
+  },
+  ignores: [
+    'templates/**/*',
+  ],
+})
