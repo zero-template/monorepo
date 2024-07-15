@@ -3,9 +3,9 @@
 
 // En: You should not change the unocss configuration here, you should change it in src/hooks/webpack.ts
 // This file is just for the unocss vscode plugin to take effect
-import { defineConfig } from "unocss";
-import presetUno from "@unocss/preset-uno";
+import { defineConfig } from 'unocss'
+import presetUno from '@unocss/preset-uno'
 
 export default defineConfig({
   presets: [presetUno()],
-});
+})

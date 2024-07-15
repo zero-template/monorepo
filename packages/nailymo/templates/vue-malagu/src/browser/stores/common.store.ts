@@ -1,7 +1,7 @@
-import { defineStore } from "pinia";
+import { defineStore } from 'pinia'
 
-export const useCommonStore = defineStore("commonStore", {
+export const useCommonStore = defineStore('commonStore', {
   state: () => {
-    return {};
+    return {}
   },
-});
+})

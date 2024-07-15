@@ -1,8 +1,11 @@
 {
   "name": "zero-template-vue-malagu",
-  "description": "",
   "version": "0.0.0",
   "private": true,
+  "description": "",
+  "keywords": [
+    "malagu-component"
+  ],
   "scripts": {
     "clean": "rimraf lib dist .malagu",
     "build": "malagu build",
@@ -16,18 +19,6 @@
     "prepare": "husky",
     "lint-staged": "lint-staged"
   },
-  "lint-staged": {
-    "*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,vue,scss,less,html}": [
-      "eslint --fix",
-      "prettier --write ./"
-    ],
-    "*.{json,md}": [
-      "prettier --write ./"
-    ]
-  },
-  "keywords": [
-    "malagu-component"
-  ],
   "dependencies": {
     "@malagu/cli-service": "2.55.0",
     "@malagu/core": "2.49.10",
@@ -65,5 +56,14 @@
     "husky": "9.0.10",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5"
+  },
+  "lint-staged": {
+    "*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,vue,scss,less,html}": [
+      "eslint . --fix",
+      "prettier --write ./"
+    ],
+    "*.{json,md}": [
+      "prettier --write ./"
+    ]
   }
 }
